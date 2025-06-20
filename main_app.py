@@ -62,3 +62,10 @@ user_input = st.text_input("Ask me anything about Alzheimer’s:")
 if user_input:
     response = get_response(user_input)
     st.write(f"🤖 {response}")
+
+
+# .streamlit/config.toml (create this file in a folder named `.streamlit` at the root of your project)
+'''
+[global]
+pythonVersion = "3.10"
+'''
