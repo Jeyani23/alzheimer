@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+keras
+numpy
+fpdf
+smtplib
+email
+gdown
